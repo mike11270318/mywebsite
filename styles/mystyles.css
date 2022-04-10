@@ -1,0 +1,109 @@
+/* my custom styles */
+
+body {
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url(../assets/images/Background\ img.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  .intro .intro-img {
+    width: 50%;
+    float: right;
+  }
+
+  .aboutme-heading {
+    text-transform: uppercase;
+  }
+  .aboutme-heading .aboutme-heading-upper {
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .aboutme-heading .aboutme-heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+}
+ .alignment {
+    text-align: left;
+}
+p {
+    font-style: italic;
+}
+.phonenumnberindexfooter {
+    position: absolute;
+    bottom: -1000px;
+    height: 20px;
+    left: 520px;
+    right: 5px;
+    text-align: center;
+}
+.phonenumnberaboutfooter {
+    position: absolute;
+    bottom: -1010px;
+    height: 20px;
+    left: 520px;
+    right: 5px;
+    text-align: center;
+}
+.iconfooterabout {
+    position: absolute;
+    bottom: -1010px;
+    height: 25px;
+    left: 550px;
+    right: 5px;
+    text-align: center;
+}
+.iconfooterindex {
+    position: absolute;
+    bottom: -1000px;
+    height: 25px;
+    left: 550px;
+    right: 5px;
+    text-align: center;
+}
+.iconfooterindexemail {
+    position: absolute;
+    bottom: -1005px;
+    height: 33px;
+    left: 580px;
+    right: 5px;
+    text-align: center;
+}
+.iconfooteraboutemail {
+    position: absolute;
+    bottom: -1015px;
+    height: 33px;
+    left: 580px;
+    right: 5px;
+    text-align: center;
+}
+.byulogoplacement {
+    position: absolute;
+    bottom: 500px;
+    height: 250px;
+    left: 825px;
+    right: 5px;
+    text-align: center;
+}
+.personalpicplacement {
+    position: absolute;
+    bottom: 225px;
+    height: 250px;
+    left: 825px;
+    right: 5px;
+    text-align: center;
+}
+.videolocation {
+    position: absolute;
+    bottom: 35px;
+    height: 175px;
+    width: 300px;
+    left: 800px;
+    right: 5px;
+    text-align: center;
+}
+.navbarcolor {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-orange-rgb), var(--bs-bg-opacity)) !important;
+}

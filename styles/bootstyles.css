@@ -42,7 +42,7 @@
     text-align: left;
     position: absolute;
     left: 950px;
-    bottom: -17%;
+    bottom: -5%;
     font-size: 25px;
     background-color: grey;
 }
@@ -112,3 +112,4 @@ body {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
+

@@ -1,16 +1,16 @@
 .tableau2location {
     position: absolute;
-    bottom: 433px;
+    bottom: 320px;
     height: 25%;
     width: 100%;
-    left: 850px;
+    left: 750px;
     right: 5px;
     text-align: center;
 }
 
 .tableau3location {
     position: absolute;
-    bottom: 350px;
+    bottom: 250px;
     height: 25%;
     width: 100%;
     left: 0px;
@@ -20,10 +20,10 @@
 
 .tableau4location {
     position: absolute;
-    bottom: 782px;
+    bottom: 570px;
     height: 25%;
     width: 100%;
-    left: 850px;
+    left: 750px;
     right: 5px;
     text-align: center;
 }
@@ -32,7 +32,7 @@
     color: white;
     text-align: left;
     position: absolute;
-    left: 175px;
+    left: 125px;
     font-size: 25px;
     background-color: grey;
 }
@@ -41,8 +41,8 @@
     color: white;
     text-align: left;
     position: absolute;
-    left: 950px;
-    bottom: -5%;
+    left: 750px;
+    bottom: -3%;
     font-size: 25px;
     background-color: grey;
 }
@@ -51,8 +51,8 @@
     color: white;
     text-align: left;
     position: absolute;
-    left: 125px;
-    bottom: -80%;
+    left: 10px;
+    bottom: -57%;
     font-size: 25px;
     background-color: grey;
 }
@@ -61,8 +61,8 @@
     color: white;
     text-align: left;
     position: absolute;
-    left: 950px;
-    bottom: -90%;
+    left: 700px;
+    bottom: -57%;
     font-size: 25px;
     background-color: grey;
 }
@@ -87,22 +87,6 @@ body {
     float: right;
   }
   
-
-  #mainNav {
-    background-color: rgba(47, 23, 15, 0.9);
-    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-  #mainNav .navbar-brand {
-    color: #e6a756;
-  }
-  #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.7);
-    font-weight: 800;
-  }
-  #mainNav .navbar-nav .nav-item.active .nav-link {
-    color: #e6a756;
-  }
-
   .navbar {
     position: relative;
     display: flex;
@@ -112,4 +96,27 @@ body {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
-
+  .tableauheader {   
+    padding: 60px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+.tableaufooter {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+    color: white;
+}
+a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.tableausize {
+width: 75%;
+}

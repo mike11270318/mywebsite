@@ -29,6 +29,7 @@ body {
 }
 p {
     font-style: italic;
+    
 }
 .phonenumnberindexfooter {
     position: absolute;
@@ -40,7 +41,7 @@ p {
 }
 .phonenumnberaboutfooter {
     position: absolute;
-    bottom: -1010px;
+    bottom: -965px;
     height: 20px;
     left: 520px;
     right: 5px;
@@ -48,9 +49,9 @@ p {
 }
 .iconfooterabout {
     position: absolute;
-    bottom: -1010px;
+    bottom: -970px;
     height: 25px;
-    left: 550px;
+    left: 455px;
     right: 5px;
     text-align: center;
 }
@@ -58,7 +59,7 @@ p {
     position: absolute;
     bottom: -1000px;
     height: 25px;
-    left: 550px;
+    left: 455px;
     right: 5px;
     text-align: center;
 }
@@ -66,13 +67,21 @@ p {
     position: absolute;
     bottom: -1005px;
     height: 33px;
-    left: 580px;
+    left: 490px;
     right: 5px;
     text-align: center;
 }
 .iconfooteraboutemail {
     position: absolute;
-    bottom: -1015px;
+    bottom: -975px;
+    height: 33px;
+    left: 490px;
+    right: 5px;
+    text-align: center;
+}
+.iconfooteremail {
+    position: absolute;
+    bottom: -975px;
     height: 33px;
     left: 580px;
     right: 5px;
@@ -107,3 +116,28 @@ p {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-orange-rgb), var(--bs-bg-opacity)) !important;
 }
+.iconfootertableauemail {
+    position: absolute;
+    bottom: -955px;
+    height: 33px;
+    left: 460px;
+    right: 5px;
+    text-align: center;
+}
+.iconfootertableauindex {
+    position: absolute;
+    bottom: -950px;
+    height: 25px;
+    left: 425px;
+    right: 5px;
+    text-align: center;
+}
+.phonenumnbertableaufooter {
+    position: absolute;
+    bottom: -945px;
+    height: 20px;
+    left: 520px;
+    right: 5px;
+    text-align: center;
+}
+
